@@ -1,0 +1,74 @@
+html, body {
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;	
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: black;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-envelope {
+    background: #bb0000;
+    color: white;
+}
+.me {
+  background-color: #12746C;
+  min-height: 60vh;
+  padding-top: 40vh;
+}
+
+.project {
+  background-color: teal;
+  min-height: 60vh;
+  padding-top: 40vh;
+}
+
+#contact {
+  background-color: #1FC2B5;
+  padding: 20px;
+}
+footer {
+  background-color: #23D8CA;
+}
+nav ul {
+  text-align: right;
+  position: fixed;
+  /*right: 0;*/
+  width: 100%;
+  background-color: transparent;
+}
+nav ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: white;
+}
+
+footer {
+  padding: 10px;
+}
